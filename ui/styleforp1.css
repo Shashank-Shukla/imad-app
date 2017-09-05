@@ -4,7 +4,7 @@ body {
     margin-top: 75px;
 }
 
-h1 {
+h2 {
     background-color: rgb(120,45,180);
 }
 
@@ -28,7 +28,4 @@ p {
     font-weight: bold;
 }
 
-.img-medium {
-    height: 170px;
-}
 
