@@ -25,3 +25,6 @@ body {
 .bold {
     font-weight: bold;
 }
+.inset {
+    border-style: inset;
+}
