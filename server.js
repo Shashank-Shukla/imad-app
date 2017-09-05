@@ -82,7 +82,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/first-url',function(req,res){
-    res.sendFile(fn(AllPages));
+    res.send(fn(AllPages));
 }
 );
 
