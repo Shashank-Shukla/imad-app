@@ -33,7 +33,7 @@ function fn(obj)
             <style>
                 body {
                     font-family: Times New Roman;
-                    background-color: orange;
+                    background-color: black;
                     margin-top: 10px;
                     padding-left: 80px;
                     padding-right: 2px;
@@ -49,6 +49,7 @@ function fn(obj)
     
                 div{
                     background-color: yellow;
+                    padding-right: 20px;
                     }
                 p{
                         background-color: rgb(102,175,220);
