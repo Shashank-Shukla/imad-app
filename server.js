@@ -35,7 +35,7 @@ function fn(obj)
                     font-family: Times New Roman;
                     background-color: orange;
                     margin-top: 10px;
-                    padding-left: 25px;
+                    padding-left: 80px;
                     padding-right: 2px;
                     }
     
