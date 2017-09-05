@@ -1,0 +1,34 @@
+body {
+    font-family: Lucida Console;
+    background-color: #FFE4B5;
+    margin-top: 75px;
+}
+
+h1 {
+    background-color: rgb(120,45,180);
+}
+
+div {
+    background-color: yellow;
+}
+
+p {
+    background-color: rgb(102,175,220);
+}
+
+.center {
+    text-align: center;
+}
+
+.text-big {
+    font-size: 150%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 170px;
+}
+
