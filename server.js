@@ -74,15 +74,15 @@ function fn(obj)
           </div>
         </body>
     </html>`;
-    return htmlTemp
+    return htmlTemp;
 }
 
 app.get('/', function (req, res) {
-  res.sendFile(fn(AllPages));
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/first-url',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'first-url.html'));
+    res.sendFile(fn(AllPages));
 }
 );
 
