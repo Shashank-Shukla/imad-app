@@ -5,6 +5,18 @@ body {
     margin-left: 100px;
 }
 
+h2 {
+    background-color: rgb(120,45,180);
+}
+
+div {
+    background-color: yellow;
+}
+
+p {
+    background-color: rgb(102,175,220);
+}
+
 .center {
     text-align: center;
 }
