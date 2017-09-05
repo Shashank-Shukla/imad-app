@@ -1,10 +1,17 @@
 console.log('Loaded!');
 var img = document.getElementById('changeimg');
-function bigsize()
+var val=0;
+img.onclick = "bigsize(200)";
+function bigsize(val)
 {
-    img.style.height='325px';
+    val=val+1;
+    img.style.width=val+'px';
+    if(val<100)
+    {
+        setTimeout("bigsize(val)",10);
+    }
 }
-img.onclick = "bigsize()";
+
 /*function imagechange()
 {
     if(document.getElementById("changeimg").src=="http://the-art-of-autism.com/wp-content/uploads/2013/08/CraigRoveta_RefractedLight.jpg")
