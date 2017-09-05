@@ -9,17 +9,17 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/first-url',function(){
+app.get('/first-url',function(req,res){
     res.send('URL - 1 Accessed!!!!');
 }
 );
 
-app.get('/second-url',function(){
+app.get('/second-url',function(req,res){
     res.send('URL - 2 Accessed!!!!');
 }
 );
 
-app.get('/third-url',function(){
+app.get('/third-url',function(req,res){
     res.send('URL - 3 Accessed!!!!');
 }
 );
