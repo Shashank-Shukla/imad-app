@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/first-url',function(req,res){
-    res.send('URL - 1 Accessed!!!!');
+    res.send(path.join(__dirname, 'ui', 'first-url.html'));
 }
 );
 
