@@ -1,19 +1,8 @@
 body {
     font-family: Lucida Console;
-    background-color: #FFE4B5;
+    background-color: lightblue;
     margin-top: 75px;
-}
-
-h2 {
-    background-color: rgb(120,45,180);
-}
-
-div {
-    background-color: yellow;
-}
-
-p {
-    background-color: rgb(102,175,220);
+    margin-left: 100px;
 }
 
 .center {
