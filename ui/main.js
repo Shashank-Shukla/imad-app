@@ -2,9 +2,10 @@ console.log('Loaded!');
 var img = document.getElementById('changeimg');
 var val=0;
 img.onclick = "bigsize(200)";
-function bigsize(val)
+function bigsize(value)
 {
-    val=val+10;
+    val=val+1;
+    value=val+10;
     img.style.width=val+'px';
     if(val<100)
     {
