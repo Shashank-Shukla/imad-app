@@ -30,38 +30,7 @@ function fn(obj)
         <head>
             <title>${ti}</title>
             <meta name="viewport" content="width=device-width, initial scale =1"/>
-            <style>
-                body {
-                    font-family: Times New Roman;
-                    background-color: black;
-                    margin-top: 10px;
-                    padding-left: 80px;
-                    padding-right: 2px;
-                    }
-    
-                h2{
-                        font-size: 40px;
-                        font-size: 2.5em;
-                        font-weight: bold;
-                        font-family: Lucida Console;
-                        background-color: rgb(120,45,180);
-                        }
-    
-                div{
-                    background-color: yellow;
-                    padding-right: 20px;
-                    }
-                p{
-                        background-color: rgb(102,175,220);
-                        padding-right: 15px;
-                        }
-                div {
-                    width: 800px;
-                    border: 10px solid green;
-                    padding: 25px;
-                    margin: 22px;
-                    }
-            </style>
+            <link href="/ui/styleforp1.css" rel="stylesheet" />
         </head>
         <body>
           <div  class="h2-color div-color p-color">
@@ -92,10 +61,9 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/styleforp1.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'styleforp1.css'));
 });
-
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
