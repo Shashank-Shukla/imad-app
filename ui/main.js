@@ -4,11 +4,11 @@ var val=0;
 img.onclick = "bigsize(200)";
 function bigsize(val)
 {
-    val=val+1;
+    val=val+10;
     img.style.width=val+'px';
     if(val<100)
     {
-        setTimeout("bigsize(val)",10);
+        var interval = setInterval(bigsize,10);
     }
 }
 
