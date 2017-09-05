@@ -4,8 +4,8 @@ function bigsize()
 {
     img.style.height='325px';
 }
-img.onhover = "bigsize()";
-function imagechange()
+img.onclick = "bigsize()";
+/*function imagechange()
 {
     if(document.getElementById("changeimg").src=="http://the-art-of-autism.com/wp-content/uploads/2013/08/CraigRoveta_RefractedLight.jpg")
     {
@@ -16,4 +16,4 @@ function imagechange()
         document.getElementById("changeimg").src="http://the-art-of-autism.com/wp-content/uploads/2013/08/CraigRoveta_RefractedLight.jpg";
     }
 }
-img.onclick = "imagechange()";
+img.onclick = "imagechange()";*/
