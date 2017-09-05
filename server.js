@@ -9,6 +9,21 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/first-url',function(){
+    res.send('URL - 1 Accessed!!!!');
+}
+);
+
+app.get('/second-url',function(){
+    res.send('URL - 2 Accessed!!!!');
+}
+);
+
+app.get('/third-url',function(){
+    res.send('URL - 3 Accessed!!!!');
+}
+);
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
