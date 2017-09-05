@@ -58,8 +58,8 @@ function fn(obj)
                 div {
                     width: 800px;
                     border: 10px solid green;
-                    padding: 5px;
-                    margin: 2px;
+                    padding: 25px;
+                    margin: 22px;
                     }
             </style>
         </head>
