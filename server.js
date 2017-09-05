@@ -33,7 +33,7 @@ function fn(obj)
             <link href="/ui/styleforp1.css" rel="stylesheet" />
         </head>
         <body>
-          <div  class="h2-color div-color p-color">
+          <div  class="h2-color div-color p-color inset text-big bold">
             <div><a href="/"><font color = "red">Go To Homepage</font></a></div>
             <div>${da}</div>
             <hr/>
