@@ -52,6 +52,7 @@ function fn(obj)
                     }
                 p{
                         background-color: rgb(102,175,220);
+                        padding-right: 15px;
                         }
                 div {
                     width: 800px;
