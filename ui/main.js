@@ -6,7 +6,7 @@ function bigsize(value)
 {
     val=val+1;
     value=val+10;
-    img.style.width=val+'px';
+    img.style.width=value+'px';
     if(val<100)
     {
         var interval = setInterval(bigsize,10);
