@@ -56,8 +56,8 @@ function fn(obj)
                 div {
                     width: 800px;
                     border: 10px solid green;
-                    padding: 25px;
-                    margin: 5px;
+                    padding: 80px;
+                    margin: 15px;
                     }
             </style>
         </head>
